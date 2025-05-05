@@ -1,17 +1,15 @@
-# minimal-reproduction-template
+# 35735
 
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+Reproduction for [Renovate discussion 35735](https://github.com/renovatebot/renovate/discussions/35735)
 
 ## Current behavior
 
-Explain the current behavior here.
+Renovate doesn't detect updates for package wpackagist-plugin/ga-google-analytics
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Renovate detects updates for package wpackagist-plugin/ga-google-analytics. Version 20241019 is pinned, so Renovate should detect verions 20241102 and 20250326.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+[Renovate discussion 35735](https://github.com/renovatebot/renovate/discussions/35735)
